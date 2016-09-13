@@ -12,22 +12,19 @@ public class labThree {
 		int x = input.nextInt();
 		
 		
-		// Read page 185 for examples
-		//formula for calculating squares
-		//formula for calculating cubes
-		//for(int i = 1; i <= x; i++){
-			
-		//}
-		//Print headers
 		
-		if(x>=0){
+		//Print headers
 		System.out.println("Number		Squared		Cubed");
 		System.out.println("======		======		======");
-		System.out.println(x + "\t\t" + facMe2(x) + "\t\t" +facMe(x));
-		} else { 
-			
-		}
-		
+
+		//formula for calculating squares
+		//formula for calculating cubes
+		for(int i = 1; i <= x; i++){System.out.println(i+ "\t\t" + facMe2(i) + "\t\t" +facMe(i));}
+//		if(x>=0){
+//			System.out.println(x + "\t\t" + facMe2(x) + "\t\t" +facMe(x));
+//		} else { 
+//		System.out.println("Nah bruh, that's not gonna cut it.");
+//				}
 
 
 //Do out want to continue prompt
