@@ -6,33 +6,28 @@ public class labThree {
 		// TODO Auto-generated method stub
 		System.out.println("Learn your squares and cubes!");
 		System.out.println("Please enter an integer to begin.");
+		
 		// read user input
 		Scanner input = new Scanner(System.in);
-		int i = input.nextInt();
-		int intNext = 0;
+		int x = input.nextInt();
+		
 		
 		// Read page 185 for examples
 		//formula for calculating squares
 		//formula for calculating cubes
-		for(i = 1; i <= intNext; i++){
-			System.out.println(Math.pow(i,2));
-			System.out.println(Math.pow(i,3));
-		}
+		//for(int i = 1; i <= x; i++){
+			
+		//}
 		//Print headers
-		boolean x = false;
-		if(x=true){
+		
+		if(x>=0){
 		System.out.println("Number		Squared		Cubed");
 		System.out.println("======		======		======");
-		} else { x = false;
+		System.out.println(x + "\t\t" + facMe2(x) + "\t\t" +facMe(x));
+		} else { 
 			
 		}
 		
-		// Print all numbers between input and 1
-		
-		//Print square of all numbers between input and 1
-		
-		//Print cube of all numbers between input and 1
-
 
 
 //Do out want to continue prompt
@@ -40,5 +35,27 @@ public class labThree {
 
 
 	}
-
+	
+	public static int facMe(int x){
+		 
+		if(x==0){
+			return 0;	
+		}else{
+			
+			return (x*x*x);
+		}
+	}
+	public static int facMe2(int x){
+		 
+		if(x==0){
+			return 0;	
+		}else{
+			
+			return (x*x);
+		}
+	}
+	private static int t(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
